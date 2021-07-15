@@ -1,0 +1,30 @@
+@mixin containerWidthSm($paddingVert, $paddingHoriz) {
+    padding: $paddingVert calc(50vw - #{$paddingHoriz});
+}
+@mixin containerWidthMd($paddingVert, $paddingHoriz) {
+    padding: $paddingVert calc(50vw - #{$paddingHoriz});
+}
+@mixin containerWidthLarg($paddingVert, $paddingHoriz) {
+    padding: $paddingVert calc(50vw - #{$paddingHoriz});
+}
+@mixin containerWidthXlar($paddingVert, $paddingHoriz) {
+    padding: $paddingVert calc(50vw - #{$paddingHoriz});
+}
+
+@mixin media($minmax,$media) {
+
+    @each $size, $resolution in $sizes {
+        @if $media == $size {
+            @media only screen and (#{$minmax}-width: $resolution) {
+                @content;
+            }
+        }
+    }
+
+}
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 300;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 300px) / #{$maxWidth}));
+}

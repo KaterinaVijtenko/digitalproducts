@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitalproducts</title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+    <div class="header__logo">
+        <svg width="54" height="72">
+            <use xlink:href="./img/sprite.svg#logo"></use>
+        </svg>
+    </div>
+
+    <input type="checkbox" id="hamburger-checkbox">
+    <label for="hamburger-checkbox" class="hamburger"><span></span></label>
+
+    <nav class="header__nav">
+        <ul class="header__menu">
+            <li class="header__menu-item">
+                <a href="#home" class="header__menu-link">Home</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#about" class="header__menu-link">About</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#services" class="header__menu-link">Services</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#works" class="header__menu-link">Works</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#contact" class="header__menu-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+    <main class="main">
+        <section class="hero" id="home">
+    <div class="hero__wrapper">
+        <h1 class="hero__title">
+            Creative Digital Project
+        </h1>
+        <h3 class="hero__subtitle">
+            Duis mollis, est non commodo luctus,
+            nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </h3>
+    </div>
+</section>
+        <section class="about" id="about">
+    <div class="about__wrapper">
+        <div class="about__picture">
+            <div class="about__picture-wrapper">
+                <img src="../img/icon_about_section.png" alt="people-icon">
+                <h3 class="about__title">
+                    About us
+                </h3>
+            </div>
+        </div>
+        <div class="about__description">
+            <p class="about__text-first">
+                Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi porta gravida at eget
+                metus.
+                Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum
+                faucibus dolor auctor.
+            </p>
+            <p class="about__text-second">
+                <b>Morbi leo risus</b>, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue
+                laoreet
+                rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed
+                posuere consectetur est at lobortis.
+            </p>
+            <p>
+                <a class="about__btn btn-link" href="#">Learn More</a>
+            </p>
+        </div>
+    </div>
+</section>
+        <section class="services" id="services">
+    <div class="services__wrap">
+        <div class="services__description">
+            <div class="services__row">
+                <div class="services__item color-bg">
+                    <img src="./img/icon_services_section.png" alt="icon-pencils">
+                    <h3 class="services__item-title">
+                        GRAPHIC DESIGN
+                    </h3>
+                    <p class="services__item-text">
+                        Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                </div>
+                <div class="services__item">
+                    <img src="./img/icon-rectangle_services_section.png" alt="icon-rectangle">
+                    <h3 class="services__item-title">
+                        WEB DEVELOPMENT
+                    </h3>
+                    <p class="services__item-text">
+                        Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                </div>
+            </div>
+            <div class="services__row">
+                <div class="services__item">
+                    <img src="./img/icon-seo_services_section.png" alt="icon-globe">
+                    <h3 class="services__item-title">
+                        SEO & MARKETING
+                    </h3>
+                    <p class="services__item-text">
+                        Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                </div>
+                <div class="services__item color-bg">
+                    <img src="./img/icon-mobile_services_section.png" alt="icon-rectangle">
+                    <h3 class="services__item-title">
+                        MOBILE DEVELOPMENT
+                    </h3>
+                    <p class="services__item-text">
+                        Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__info">
+            <img src="./img/icon-blokquote_services_section.png" alt="icon-list">
+            <h3 class="services__info-title">
+                OUR SERVICES
+            </h3>
+            <p class="services__info-text">
+                “Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”
+                - Borat -
+            </p>
+        </div>
+    </div>
+</section>
+        <section class="works" id="works">
+    <div class="works__header">
+        <img src="./img/icon_works_section.png" alt="icon-pancil">
+        <h3 class="works__title">
+            RECENT WORKS
+        </h3>
+    </div>
+    <ul class="works__slider js-works-slider">
+        <li class="works__slider-item">
+            <img src="./img/img_work_section.jpg" alt="project1">
+        </li>
+        <li class="works__slider-item">
+            <img src="./img/img_work_section.jpg" alt="project2">
+        </li>
+        <li class="works__slider-item">
+            <img src="./img/img_work_section.jpg" alt="project3">
+        </li>
+        <li class="works__slider-item">
+            <img src="./img/img_work_section.jpg" alt="project4">
+        </li>
+    </ul>
+    <p>
+        <a class="works__btn btn-link" href="#">View Gallery</a>
+    </p>
+</section>
+        <section class="our-team">
+    <div class="our-team__header">
+        <img src="./img/icon_our-team_section.png" alt="icon-team">
+        <h3 class="our-team__title">
+            MEET OUR TEAM
+        </h3>
+    </div>
+
+    <div class="our-team__list js-our-team-slider">
+        <div class="our-team__item">
+            <img src="./img/photo1_our-team_section.png" alt="photo" class="our-team__photo">
+            <div class="our-team__wrapper">
+                <h3 class="our-team__name">
+                    Miguel Obrien
+                </h3>
+                <p class="our-team__profession">
+                    CEO & Founder
+                </p>
+            </div>
+            <ul class="our-team__socials-list">
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#linked-in"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#google"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- and first item -->
+
+        <div class="our-team__item">
+            <img src="./img/photo2_our-team_section.png" alt="photo" class="our-team__photo">
+            <div class="our-team__wrapper">
+                <h3 class="our-team__name">
+                    Jackie Carroll
+                </h3>
+                <p class="our-team__profession">
+                    Art Director
+                </p>
+            </div>
+            <ul class="our-team__socials-list">
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#behance"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#linked-in"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#google"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end second item -->
+
+        <div class="our-team__item">
+            <img src="./img/photo3_our-team_section.png" alt="photo" class="our-team__photo">
+            <div class="our-team__wrapper">
+                <h3 class="our-team__name">
+                    Ida Morrison
+                </h3>
+                <p class="our-team__profession">
+                    Designer
+                </p>
+            </div>
+            <ul class="our-team__socials-list">
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#behance"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#linked-in"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#google"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="our-team__socials-item">
+                    <a href="#">
+                        <svg width="40" height="40">
+                            <use xlink:href="./img/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end third item -->
+    </div>
+</section>
+        <section class="contact" id="contact">
+    <div class="contact__header">
+        <img src="./img/icon-loc_contact_section.png" alt="icon-location">
+        <h3 class="contact__title">
+            GET IN TOUCH
+        </h3>
+    </div>
+    <div class="contact__adress-wrapper">
+        <div class="contact__adress">
+            <div class="contact__icon">
+                <img src="./img/icon-address_contact_section.png" alt="icon-home">
+            </div>
+            <p class="contact__text">
+                Ikan Piranha Atas 220C<br>
+                Malang - East Java<br>
+                Indonesia
+            </p>
+        </div>
+        <div class="contact__adress">
+            <div class="contact__icon">
+                <img src="./img/icon-mobile_contact_section.png" alt="icon-phone">
+            </div>
+            <p class="contact__phone">
+                +6281235966914
+            </p>
+        </div>
+    </div>
+
+    <form class="contact__form">
+        <input type="text" name="name" value="Your Name *">
+        <input type="text" name="email" value="Your Email *">
+        <textarea rows="10" cols="45" name="text"></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+    <div class="scroll-up" id="home">
+        <a href="#home" class="scroll-up__buttton"></a>
+    </div>
+</section>
+        <section class="map">
+            <div id="map"></div>
+        </section>
+    </main>
+    <footer class="footer">
+    <p class="footer__copyright">
+        ©2014 tulusdriyo. All Rights Reserved.
+    </p>
+    <ul class="our-team__socials-list">
+        <li class="our-team__socials-item">
+            <a href="#">
+                <svg width="40" height="40">
+                    <use xlink:href="./img/sprite.svg#behance"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="our-team__socials-item">
+            <a href="#">
+                <svg width="40" height="40">
+                    <use xlink:href="./img/sprite.svg#linked-in"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="our-team__socials-item">
+            <a href="#">
+                <svg width="40" height="40">
+                    <use xlink:href="./img/sprite.svg#google"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="our-team__socials-item">
+            <a href="#">
+                <svg width="40" height="40">
+                    <use xlink:href="./img/sprite.svg#facebook"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="our-team__socials-item">
+            <a href="#">
+                <svg width="40" height="40">
+                    <use xlink:href="./img/sprite.svg#twitter"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCorTmSwNIzzDLifPsgH-yjkpSxxf5MXDU&callback=initMap&libraries=&v=weekly"
+        async></script>
+    <script src="./js/maps.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

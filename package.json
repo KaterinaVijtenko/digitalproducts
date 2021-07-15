@@ -1,0 +1,19 @@
+{
+  "name": "final_exam",
+  "version": "1.0.0",
+  "description": "\"Exam\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kateryna Viitenko",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  }
+}
