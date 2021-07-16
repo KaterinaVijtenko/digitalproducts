@@ -5,8 +5,8 @@ let map;
 function initMap() {
     const myLatLng = { lat: 40.680751, lng: -73.905319 };
     const map = new google.maps.Map(document.querySelector("#map"), {
-        center: { lat: 40.665288, lng: -73.899185 },
-        zoom: 12,
+        center: { lat: -7.923372, lng: 112.627265 },
+        zoom: 10,
         styles: [
             {
                 "featureType": "water",
@@ -185,9 +185,9 @@ function initMap() {
         ]
     });
 
-    const locationIcon = "/monticello/img/location-icon.png";
+    const locationIcon = "./img/location-icon.png";
     new google.maps.Marker({
-        position: myLatLng,
+        position: { lat: -7.903372, lng: 112.627265 },
         map,
         icon: locationIcon
     });

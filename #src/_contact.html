@@ -1,38 +1,52 @@
 <section class="contact" id="contact">
-    <div class="contact__header">
-        <img src="./img/icon-loc_contact_section.png" alt="icon-location">
-        <h3 class="contact__title">
-            GET IN TOUCH
-        </h3>
-    </div>
-    <div class="contact__adress-wrapper">
-        <div class="contact__adress">
-            <div class="contact__icon">
-                <img src="./img/icon-address_contact_section.png" alt="icon-home">
-            </div>
-            <p class="contact__text">
-                Ikan Piranha Atas 220C<br>
-                Malang - East Java<br>
-                Indonesia
-            </p>
-        </div>
-        <div class="contact__adress">
-            <div class="contact__icon">
-                <img src="./img/icon-mobile_contact_section.png" alt="icon-phone">
-            </div>
-            <p class="contact__phone">
-                +6281235966914
-            </p>
-        </div>
+    <div class="map">
+        <div id="map"></div>
     </div>
 
-    <form class="contact__form">
-        <input type="text" name="name" value="Your Name *">
-        <input type="text" name="email" value="Your Email *">
-        <textarea rows="10" cols="45" name="text"></textarea>
-        <input type="submit" value="Send Message">
-    </form>
-    <div class="scroll-up" id="home">
-        <a href="#home" class="scroll-up__buttton"></a>
+    <div class="contact__inner">
+        <div class="contact__header">
+            <img src="./img/icon-loc_contact_section.png" alt="icon-location">
+            <h3 class="contact__title">
+                GET IN TOUCH
+            </h3>
+        </div>
+        <div class="contact__adress-wrapper">
+            <div class="contact__adress">
+                <div class="contact__icon">
+                    <img src="./img/icon-address_contact_section.png" alt="icon-home">
+                </div>
+                <p class="contact__text">
+                    Ikan Piranha Atas 220C<br>
+                    Malang - East Java<br>
+                    Indonesia
+                </p>
+            </div>
+            <div class="contact__adress">
+                <div class="contact__icon">
+                    <img src="./img/icon-mobile_contact_section.png" alt="icon-phone">
+                </div>
+                <p class="contact__phone">
+                    +6281235966914
+                </p>
+            </div>
+        </div>
+
+        <form class="contact__form" action="#" method="get">
+            <p class="form-group half-width">
+                <input type="text" name="name" placeholder="Your Name *" required>
+            </p>
+            <p class="form-group half-width">
+                <input type="text" name="email" placeholder="Your Email *" required>
+            </p>
+            <p class="form-group">
+                <textarea rows="10" cols="45" name="text" placeholder="Your Message *" required></textarea>
+            </p>
+            <p class="form-group text-center">
+                <input type="submit" value="Send Message" class="btn-link">
+            </p>
+        </form>
+        <div class="scroll-up" id="home">
+            <a href="#home" class="scroll-up__buttton"></a>
+        </div>
     </div>
 </section>

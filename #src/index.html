@@ -11,27 +11,34 @@
 </head>
 
 <body>
+
     @@include('_header.html')
+
     <main class="main">
+
         @@include('_hero.html')
+
         @@include('_about.html')
+
         @@include('_services.html')
+
         @@include('_works.html')
+
         @@include('_our_team.html')
+
         @@include('_contact.html')
-        <section class="map">
-            <div id="map"></div>
-        </section>
+
     </main>
+
     @@include('_footer.html')
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../js/slick.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCorTmSwNIzzDLifPsgH-yjkpSxxf5MXDU&callback=initMap&libraries=&v=weekly"
         async></script>
     <script src="./js/maps.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
